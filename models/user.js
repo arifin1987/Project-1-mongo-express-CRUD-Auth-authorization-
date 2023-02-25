@@ -38,7 +38,7 @@ userSchema.methods.generateJWT = function(){
     return token;
 }
 
-
+// It will create a collection name User
 const User = model('User', userSchema);
 
 module. exports.User = User;
